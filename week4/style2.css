@@ -1,0 +1,37 @@
+h2{
+    text-align:center;
+    margin-top: 10px;
+}
+.timetable{
+    width:60px;
+    text-align: center;
+    border-collapse: collapse;
+     font-family: Arial, sans-serif;
+     
+
+}
+.timetable th,
+.timetable td {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+
+.timetable th {
+    background-color: #4a90e2;
+    color: white;
+}
+
+
+.timetable tr:nth-child(even) {
+    background-color:bisque;
+}
+
+.timetable tr:nth-child(odd) {
+    background-color:burlywood;
+}
+
+
+.timetable tr:hover {
+    background-color: #d6e4f5;
+}
