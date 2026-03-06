@@ -1,0 +1,43 @@
+body
+{
+    font-family: Arial;
+    background-color: #f3f3f3;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.container
+{
+    width: 350px;
+    margin: auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px gray;
+}
+
+input
+{
+    padding: 8px;
+    width: 80%;
+}
+
+button
+{
+    padding: 8px 15px;
+    background-color: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover
+{
+    background-color: darkgreen;
+}
+
+.result
+{
+    margin-top: 20px;
+    text-align: left;
+}
